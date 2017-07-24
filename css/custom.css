@@ -32,6 +32,12 @@ header {
   font-size: 11.5px;
   border: none !important;
 }
-.navbar-brand {
-  padding: 10px 15px;
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
 }
