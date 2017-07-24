@@ -1,2 +1,3 @@
-# AliceJoyce
-Website for Alice Joyce personal blog
+# Alice Joyce Website
+
+Website for Alice Joyce personal blog.
