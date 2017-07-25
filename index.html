@@ -65,6 +65,33 @@
 	alice joys
   </div>
 
+  <div class="row" id="main-carousel">
+	  <div class="col-lg-6 col-sm-12 col-lg-offset-3">
+		<div id="myCarousel1" class="carousel slide" data-ride="carousel">
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/one.jpg">
+				</div>
+				<div class="item">
+					<img src="img/two.jpg">
+				</div>
+				<div class="item">
+					<img src="img/three.jpg">
+				</div>
+			</div>
+			<!-- End Carousel Inner -->
+			<div id="#myCarousel" class="carousel slide" data-ride="#myCarousel1">
+				<ul class="carousel-indicators">
+					<li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel1" data-slide-to="1"></li>
+					<li data-target="#myCarousel1" data-slide-to="2"></li>
+				</ul>
+			</div>
+		</div>
+		<!-- End Carousel -->
+	  </div>
+  </div>
 
   </body>
   
@@ -72,6 +99,18 @@
   	<div class="footer">
 
     </div>
+	
+	<script>
+      $(document).ready(function () {
+      	$('img').on('click', function () {
+      		var image = $(this).attr('src');
+      		$('#myModal').on('show.bs.modal', function () {
+      			$("#window").attr("src", image);
+      		});
+      	});
+      });
+      
+   </script>
   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
