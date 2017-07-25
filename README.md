@@ -1,6 +1,6 @@
-# Alice Joyce Website
+# Alice Joys Website
 
-Website for Alice Joyce personal blog.
+Website for Alice Joys personal blog.
 
 ## Inspirations
 
